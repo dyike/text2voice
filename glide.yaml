@@ -2,6 +2,6 @@ package: text2voice
 import:
 - package: github.com/dyike/log
 - package: github.com/garyburd/redigo
-  version: ^1.6.0
+  version: v1.6.0
   subpackages:
   - redis
