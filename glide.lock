@@ -1,0 +1,11 @@
+hash: 3c46b27b50164cbe25d1708ec302b08e67aefe2e5789cfb21fb5f4512a91b78e
+updated: 2019-01-15T22:43:17.076191+08:00
+imports:
+- name: github.com/dyike/log
+  version: a8a149bd73ed2c8f853719a12ee282ad7ed363d2
+- name: github.com/garyburd/redigo
+  version: a69d19351219b6dd56f274f96d85a7014a2ec34e
+  subpackages:
+  - internal
+  - redis
+testImports: []
