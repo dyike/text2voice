@@ -4,10 +4,10 @@ import (
 	"encoding/json"
 	"fmt"
 	"os"
+	"text2voice/xf"
 	"time"
-	"voice/log"
-	"voice/xf"
 
+	"github.com/dyike/log"
 	"github.com/garyburd/redigo/redis"
 )
 

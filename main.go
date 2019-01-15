@@ -5,8 +5,9 @@ import (
 	"fmt"
 	"os"
 	"strings"
-	"voice/log"
-	"voice/server"
+	"text2voice/server"
+
+	"github.com/dyike/log"
 )
 
 var usageStr = `
