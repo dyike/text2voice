@@ -1,0 +1,4 @@
+github.com/dyike/log v0.0.0-20190115102530-a8a149bd73ed h1:RqrMX1rykj/kTfRj4e5MdSrM5CeVkKJB2kFtFzyHEF8=
+github.com/dyike/log v0.0.0-20190115102530-a8a149bd73ed/go.mod h1:64AJkdlYd0TA/jhHhrGWewL6ZPSjYBjf4hA1D1k6Qp0=
+github.com/garyburd/redigo v0.0.0-20180228092057-a69d19351219 h1:e+yJU8Tl/elCoxzgnRLX8UIQEAG1rJzu8Kj2mY9kDVg=
+github.com/garyburd/redigo v0.0.0-20180228092057-a69d19351219/go.mod h1:NR3MbYisc3/PwhQ00EMzDiPmrwpPxAn5GI05/YaO1SY=
