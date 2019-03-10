@@ -1,5 +1,6 @@
 *.DS_Store
 test.wav
+text2voice*
 voice*
 msc/
 vendor/

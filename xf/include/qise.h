@@ -73,6 +73,23 @@ const wchar_t* MSPAPI QISESessionBeginW(const wchar_t* params, const wchar_t* us
 typedef const wchar_t* (MSPAPI *Proc_QISESessionBeginW)(const wchar_t* params, const wchar_t* userModelID, int *errorCode);
 #endif
 
+
+
+/** 
+ * @fn		QISEPaperCheck
+ * @brief	Paper Check
+ * 
+ *  Checking the papaer .
+ * 
+ * @return	int MSPAPI				- Return 0 in success, otherwise return error code.
+ * @param	void *data	- [in] Text buffer.
+ * @param	unsigned int* dataLen	- [in] Text length in bytes,[out] Length of result returned
+ * @param	const char* params		- [in] Parameters describing the text.
+ * @see		
+ */
+const char* MSPAPI QISEPaperCheck(void *data, unsigned int * dataLen, const char *params, int *errorCode );
+
+
 /** 
  * @fn		QISETextPut
  * @brief	Put Text

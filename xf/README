@@ -59,3 +59,10 @@ samples：
 	|-- Makefile
 	|-- 32bit_make.sh
 	|-- 64bit_make.sh
+|-- sch_translate_sample（语音翻译示例）
+	|-- sch_translate_sample.c
+	|-- json.c
+	|-- json.h
+	|-- Makefile
+	|-- 32bit_make.sh
+	|-- 64bit_make.sh

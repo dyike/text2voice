@@ -215,6 +215,7 @@ enum
 	MSP_ERROR_AUTH_TRIAL_EXPIRED			= 11212,	/* 0x2BCC */   /* 试用资源过期 */
 	MSP_ERROR_AUTH_LOCAL_IFD_FORBIDDEN      = 11213,    /* 0x2BC9 */   /* 禁止使用本地人脸引擎 */
 
+	MSP_ERROR_AIUI_NO_ENOUGH_LICENSE		= 11216,	/* 0x2BD0 */   /* AIUI授权不足 */
 	/*Error Codes of Authorization*/
 	MSP_ERROR_AUTH_DVC_NO_LICENSE				= 11300,
 	MSP_ERROR_AUTH_DVC_NO_ENOUGH_LICENSE		= 11301,
@@ -274,7 +275,10 @@ enum
 
 	/*Error Codes of AIUI*/	
 	MSP_ERROR_AIUI_CID_EXPIRED				= 11800,
-	
+
+	/*Error Codes of Encoder*/	
+	MSP_ERROR_ICT_ENCODER				= 11900,
+
 	/* Error codes of http 12000(0x2EE0) */
 	MSP_ERROR_HTTP_BASE						= 12000,	/* 0x2EE0 */
 	MSP_ERROR_HTTP_400						= 12400,
@@ -526,6 +530,7 @@ enum
 	SPEECH_ERROR_IVW_RESVER_NOMATCH           = 25001,  /* 资源版本不匹配 */
 	SPEECH_ERROR_IVW_BUFFERED_AUDIOD_LITTLE   = 25002,  /* 唤醒加识别缓存音频过少 */
 	SPEECH_ERROR_IVW_INVALID_RESTYPE          = 25003,  /* 不合法的资源类型 */
+	SPEECH_ERROR_IVW_INVALID_RESHEADVER       = 25004,  /* 不合法的资源头部版本号 */
 
 	/*Error Code Of ivw Engine*/
 	SPEECH_ERROR_IVW_INVALID_CALL             = 25101,   // IvwErr_InvCal       = 1					   
