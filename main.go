@@ -64,7 +64,7 @@ func main() {
 	flag.StringVar(&logLevel, "ll", "debug", "日志输出等级")
 	flag.BoolVar(&help, "h", false, "Help")
 
-	flag.StringVar(&opts.TTSParams, "tp", "voice_name = xiaoqi, text_encoding = UTF8, sample_rate = 8000, speed = 50, volume = 50, pitch = 50, rdn = 2", "TTS合成参数")
+	flag.StringVar(&opts.TTSParams, "tp", "voice_name = aisjiuxu, text_encoding = utf8, sample_rate = 16000, speed = 50, volume = 50, pitch = 50, rdn = 2", "TTS合成参数")
 	flag.StringVar(&opts.LoginParams, "lp", "appid = 5808ae7e, work_dir = .", "登录参数")
 	flag.StringVar(&opts.RedisAddr, "r", ":6379", "redis连接地址")
 	flag.StringVar(&opts.RedisPass, "rp", "", "redis连接密码")
@@ -96,5 +96,4 @@ func main() {
 			return
 		}
 	}
-	s.Start()
 }
