@@ -5,6 +5,7 @@ import (
 	"errors"
 	"flag"
 	"fmt"
+	"io/ioutil"
 	"os"
 	"strings"
 	"text2voice/server"
@@ -108,7 +109,7 @@ func main() {
 
 	config, err := LoadConfig(confFile)
 	if err != nil {
-		fmt.Printf("加载配置文件失败:%v\n", err)
+		log.Error("加载配置文件失败:%v\n", err)
 		return
 	}
 
@@ -120,6 +121,18 @@ func main() {
 		if err != nil {
 			log.Error("日志配置失败：%v", err)
 		}
+	}
+
+	if len(txtPath) == 0 && len(txt) == 0 {
+		log.Debug("没有输入内容")
+		return
+	}
+	if len(txt) == 0 && len(txtPath) > 0 {
+		content, err := ioutil.ReadFile(txtPath)
+		if err != nil {
+			log.Error("读取文件[%s]失败: %v", txtPath, err)
+		}
+		txt = string(content)
 	}
 
 	opts := &server.Options{}
