@@ -73,7 +73,11 @@ cp default.json config.json
 ### 使用示例
 
 ```
+# 合成文件内容
 ./text2voice -c config.json -p test.txt -o test.mp3
+
+# 合成文本
+./text2voice -c config.json -t "哈哈，就是这样使用嘀~~" -o test.mp3
 ```
 
 ### Enjoy~~~
