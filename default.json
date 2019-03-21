@@ -1,11 +1,13 @@
 {
     "log":{
-        "enable":true,
-        "level": ""
+        "enable":false,
+        "filename": "voice.log",
+        "level": "ll"
     },
 
-    "appid": "",
-    "work_dir": "",
+    "appid": "5808ae7e",
+    "work_dir": ".",
+    "speed": 1,
     "tts": {
         "voice_name":"aisjiuxu", 
         "text_encoding":"utf8", 
