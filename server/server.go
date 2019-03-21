@@ -16,14 +16,7 @@ type Options struct {
 	Level       int
 	TTSParams   string
 	LoginParams string
-	RedisAddr   string
-	RedisPass   string
 	Speed       int
-}
-
-type Speech struct {
-	Id  string `json:"id"`
-	Txt string `json:"txt"`
 }
 
 func New(opts *Options) *Server {

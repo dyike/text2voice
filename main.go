@@ -66,8 +66,6 @@ func main() {
 
 	flag.StringVar(&opts.TTSParams, "tp", "voice_name = aisjiuxu, text_encoding = utf8, sample_rate = 16000, speed = 50, volume = 50, pitch = 50, rdn = 2", "TTS合成参数")
 	flag.StringVar(&opts.LoginParams, "lp", "appid = 5808ae7e, work_dir = .", "登录参数")
-	flag.StringVar(&opts.RedisAddr, "r", ":6379", "redis连接地址")
-	flag.StringVar(&opts.RedisPass, "rp", "", "redis连接密码")
 	flag.StringVar(&opts.OutDir, "d", "", "音频输出目录")
 	flag.IntVar(&opts.Speed, "s", 1, "合成速度")
 

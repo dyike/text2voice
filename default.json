@@ -1,0 +1,19 @@
+{
+    "log":{
+        "enable":true,
+        "level": ""
+    },
+
+    "appid": "",
+    "work_dir": "",
+    "tts": {
+        "voice_name":"aisjiuxu", 
+        "text_encoding":"utf8", 
+        "sample_rate":16000,
+        "speed":50, 
+        "volume":50, 
+        "pitch":50, 
+        "rdn":2
+    }
+
+}
