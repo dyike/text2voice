@@ -58,7 +58,7 @@ cp default.json config.json
 * log.enable 是否开启日志
 * log.filename 日志文件名称
 * log.level 日志等级
-* appid 讯飞开放平台注册申请的应用的appid
+* appid 讯飞开放平台注册申请的应用的appid,请换成自己的appid才能正常使用
 * work_dir 工作目录，默认当前目录下
 * speed 合成速度，默认1，范围1-10，数值越小速度越快越耗CPU
 * tts.voice_name 发音人名称，默认aisjiuxu(讯飞许久),支持:xiaoyan,aisxping,aisjinger,aisbabyxu,等其他付费
